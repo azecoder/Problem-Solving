@@ -104,7 +104,7 @@ void solve() {
 			ans[a[i].id] = -1;
 	}
 	each(pr, ans)
-		cout << (pr > 0 ? pr + 1 : pr) << " ";
+		cout << (pr >= 0 ? pr + 1 : pr) << " ";
 	cout << "\n";
 }
 
